@@ -60,7 +60,7 @@ color: #DC5555;
 }
 
 .list-inline > li {
-  display: inline
+  display: inline;
 }
 
 .list-inline {
@@ -110,4 +110,9 @@ ul {
 #sidebar li {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.hobbies {
+  text-align: center;
+  vertical-align: middle;
 }
