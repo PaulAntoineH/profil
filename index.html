@@ -8,55 +8,71 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <img id="profile_pic" class="img-rounded" src="images/Photo_Wagon_PAH.jpg" alt="Photo de PA">
-        <h1>Paul-Antoine Huilizen</h1>
-        <h2> 💻 Développeur de l'enfer au Wagon - Batch 201 💻 </h2>
-        <p>Born and raised à côté de Nantes en Loire-Atlantique. J'ai 27 ans, 3,5 années de conseil en stratégie d'entreprise derrière moi - essentiellement en retail / gde distribution. J'aime le foot, la gastronomie et la plongée sous-marine. J'ai également vécu plusieurs années à l'étranger : en Autriche (Graz), en Allemagne (Munich) et en Espagne (Madrid).</p>
-      </div>
-
-      <div class="card">
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.linkedin.com/in/pahuilizenconsultant/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/paulantoine.huilizen" target="_blank"><i class="fab fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/paulantoineh/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h2> Mon genre de films / séries </h2>
-        <table class=movies>
-          <tbody>
-            <tr>
-              <td><img class="item_pictures" src="images/Interstellar.jpg"alt=""></td>
-              <td>
-                <h3>Interstellar</h3>
-                <p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p></td>
-            </tr>
-            <tr>
-              <td><img class="item_pictures" src="images/Peaky_Blinders.jpg"alt=""></td>
-              <td>
-                <h3>Peaky Blinders</h3>
-                <p>A gangster family epic set in 1919 Birmingham, England; centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.</p></td>
-            </tr>
-            <tr>
-              <td><img class="item_pictures" src="images/Taboo.jpg"alt=""></td>
-              <td>
-                <h3>Taboo</h3>
-                <p>Adventurer James Keziah Delaney returns to London during the War of 1812 to rebuild his late father's shipping empire. However, both the government and his biggest competitor want his inheritance at any cost - even murder.</p></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#general-info"><i class="fas fa-user"></i></a>
+        </li>
+        <li>
+          <a href="#my-contacts"><i class="fas fa-user-secret"></i></a>
+        </li>
+        <li>
+          <a href="#preferred-movies"><i class="fas fa-film"></i></a>
+        </li>
+      </ul>
     </div>
+    <div id="page-content">
+      <div class="container">
+        <div class="card" id="general-info">
+          <img id="profile_pic" class="img-rounded" src="images/Photo_Wagon_PAH.jpg" alt="Photo de PA">
+          <h1>Paul-Antoine Huilizen</h1>
+          <h2> 💻 Développeur de l'enfer au Wagon - Batch 201 💻 </h2>
+          <p>Born and raised à côté de Nantes en Loire-Atlantique. J'ai 27 ans, 3,5 années de conseil en stratégie d'entreprise derrière moi - essentiellement en retail / gde distribution. J'aime le foot, la gastronomie et la plongée sous-marine. J'ai également vécu plusieurs années à l'étranger : en Autriche (Graz), en Allemagne (Munich) et en Espagne (Madrid).</p>
+        </div>
+
+        <div class="card" id="my-contacts">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.linkedin.com/in/pahuilizenconsultant/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/paulantoine.huilizen" target="_blank"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/paulantoineh/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card" id="preferred-movies">
+          <h2> Mon genre de films / séries </h2>
+          <table class=movies>
+            <tbody>
+              <tr>
+                <td><img class="item_pictures" src="images/Interstellar.jpg"alt=""></td>
+                <td>
+                  <h3>Interstellar</h3>
+                  <p>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p></td>
+              </tr>
+              <tr>
+                <td><img class="item_pictures" src="images/Peaky_Blinders.jpg"alt=""></td>
+                <td>
+                  <h3>Peaky Blinders</h3>
+                  <p>A gangster family epic set in 1919 Birmingham, England; centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.</p></td>
+              </tr>
+              <tr>
+                <td><img class="item_pictures" src="images/Taboo.jpg"alt=""></td>
+                <td>
+                  <h3>Taboo</h3>
+                  <p>Adventurer James Keziah Delaney returns to London during the War of 1812 to rebuild his late father's shipping empire. However, both the government and his biggest competitor want his inheritance at any cost - even murder.</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+
 
   </body>
 </html>
